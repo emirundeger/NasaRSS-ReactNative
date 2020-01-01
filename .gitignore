@@ -56,4 +56,7 @@ buck-out/
 *.jsbundle
 
 # CocoaPods
-/ios/Pods/
+/ios/Pods
+
+# aws config
+app/config/aws-exports.js
