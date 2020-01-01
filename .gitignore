@@ -60,3 +60,4 @@ buck-out/
 
 # aws config
 app/config/aws-exports.js
+config.js
