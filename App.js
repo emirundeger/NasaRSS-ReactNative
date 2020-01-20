@@ -106,9 +106,9 @@ const MainTabs = createBottomTabNavigator(
 );
 
 const App = createSwitchNavigator({
-  Authloading: {
+  /*Authloading: {
     screen: AuthLoading,
-  },
+  },*/
   Auth: {
     screen: AuthNavigator,
   },
