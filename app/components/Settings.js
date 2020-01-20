@@ -103,10 +103,10 @@ export default class Settings extends React.Component {
                 <View style={styles.container}>
                   <View
                     style={[
-                      styles.buttonStyle,
-                      {borderRadius: 4, marginBottom: 20},
+                      styles.titleStyle,
+                      {borderRadius: 4, marginBottom: 0},
                     ]}>
-                    <Text style={styles.buttonText}>Change password</Text>
+                    <Text style={styles.titleText}>Change password</Text>
                   </View>
                   {/* Old password */}
                   <Item style={styles.itemStyle}>
@@ -218,6 +218,18 @@ const styles = StyleSheet.create({
     borderRadius: 3,
   },
   buttonText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  titleStyle: {
+    alignItems: 'center',
+    backgroundColor: '#03A9F4',
+    padding: 14,
+    marginTop: 20,
+    borderRadius: 3,
+  },
+  titleText: {
     fontSize: 18,
     fontWeight: 'bold',
     color: '#fff',
