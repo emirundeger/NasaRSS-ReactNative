@@ -14,12 +14,20 @@ class Description extends React.Component {
       justifyContent: 'center',
     },
   };
-
+  removeCharacter(item) {
+    let newItem = item.substr(1, item.length - 2);
+    //let newItem = item.replace(/"/g, '');
+    return newItem;
+  }
   render() {
     const {navigation} = this.props;
     return (
       <View style={{flex: 1, alignItems: 'center'}}>
-        <Text>{JSON.stringify(navigation.getParam('description'))}</Text>
+        <Text>
+          {this.removeCharacter(
+            JSON.stringify(navigation.getParam('description')),
+          )}
+        </Text>
       </View>
     );
   }
