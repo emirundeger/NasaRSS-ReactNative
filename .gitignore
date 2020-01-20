@@ -60,4 +60,5 @@ buck-out/
 
 # aws config
 app/config/aws-exports.js
+app/config/aws-translate.js
 config.js
