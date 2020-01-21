@@ -55,10 +55,5 @@ buck-out/
 # Bundle artifact
 *.jsbundle
 
-# CocoaPods
-/ios/Pods
-
 # aws config
-app/config/aws-exports.js
-app/config/aws-translate.js
 config.js
