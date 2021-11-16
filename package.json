@@ -14,7 +14,7 @@
     "aws-amplify": "^2.2.0",
     "aws-amplify-react": "^2.3.9-beta.0",
     "aws-amplify-react-native": "^2.2.3",
-    "aws-sdk": "^2.597.0",
+    "aws-sdk": "^2.814.0",
     "native-base": "^2.13.8",
     "react": "16.9.0",
     "react-native": "0.61.5",
